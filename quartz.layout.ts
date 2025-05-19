@@ -1,6 +1,33 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+// Shared filter and map functions for Explorer
+const explorerFilterFn = (node: any) => {
+  const omit = new Set(["rime's compendium"])
+  return !omit.has(node.displayName.toLowerCase())
+}
+
+const explorerMapFn = (node: any) => {
+  const emojiMap: Record<string, string> = {
+    "allies, npcs, & special creatures": "🎭",
+    "bestiary": "🧟",
+    "chronicles": "📖",
+    "events": "🗓️",
+    "locations & lore": "🗺️",
+    "session notes": "📓",
+    "special items": "💎",
+  }
+  const normalized = node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "").toLowerCase()
+  const emoji = emojiMap[normalized]
+  if (emoji) {
+    node.displayName = `${emoji} ${node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")}`
+  } else if (node.isFolder) {
+    node.displayName = "📁 " + node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")
+  } else {
+    node.displayName = "📄 " + node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")
+  }
+}
+
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
@@ -38,7 +65,10 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: explorerFilterFn,
+      mapFn: explorerMapFn,
+    }),
   ],
   right: [
     Component.Graph(),
@@ -63,37 +93,8 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
-      filterFn: (node) => {
-        // set containing names of everything you want to filter out
-        const omit = new Set(["rime's compendium"])
-    
-        // can also use node.slug or by anything on node.data
-        // note that node.data is only present for files that exist on disk
-        // (e.g. implicit folder nodes that have no associated index.md)
-        return !omit.has(node.displayName.toLowerCase())
-      },
-      mapFn: (node) => {
-        // Map of section names to emojis as used in index.md
-        const emojiMap: Record<string, string> = {
-          "allies, npcs, & special creatures": "🎭",
-          "bestiary": "🧟",
-          "chronicles": "📖",
-          "events": "🗓️",
-          "locations & lore": "🗺️",
-          "session notes": "📓",
-          "special items": "💎",
-        }
-        // Normalize displayName for matching
-        const normalized = node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "").toLowerCase()
-        const emoji = emojiMap[normalized]
-        if (emoji) {
-          node.displayName = `${emoji} ${node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")}`
-        } else if (node.isFolder) {
-          node.displayName = "📁 " + node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")
-        } else {
-          node.displayName = "📄 " + node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")
-        }
-      }
+      filterFn: explorerFilterFn,
+      mapFn: explorerMapFn,
     }),
   ],
   right: [],
