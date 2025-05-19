@@ -1,3 +1,116 @@
 @use "./base.scss";
 
+:root {
+  --icon-shield: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/></svg>");
+  --icon-helmet: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-angry-icon lucide-angry'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpath d='M16 16s-1.5-2-4-2-4 2-4 2'/%3E%3Cpath d='M7.5 8 10 9'/%3E%3Cpath d='m14 9 2.5-1'/%3E%3Cpath d='M9 10h.01'/%3E%3Cpath d='M15 10h.01'/%3E%3C/svg%3E");
+  --icon-sword: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-sword-icon lucide-sword'><polyline points='14.5 17.5 3 6 3 3 6 3 17.5 14.5'/><line x1='13' x2='19' y1='19' y2='13'/><line x1='16' x2='20' y1='16' y2='20'/><line x1='19' x2='21' y1='21' y2='19'/></svg>");
+  --icon-book: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-book-icon lucide-book'%3E%3Cpath d='M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20'/%3E%3C/svg%3E");
+  --icon-scepter: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-crown-icon lucide-crown'%3E%3Cpath d='M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z'/%3E%3Cpath d='M5 21h14'/%3E%3C/svg%3E");
+  --icon-lute: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-guitar-icon lucide-guitar'%3E%3Cpath d='m11.9 12.1 4.514-4.514'/%3E%3Cpath d='M20.1 2.3a1 1 0 0 0-1.4 0l-1.114 1.114A2 2 0 0 0 17 4.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 17.828 7h1.344a2 2 0 0 0 1.414-.586L21.7 5.3a1 1 0 0 0 0-1.4z'/%3E%3Cpath d='m6 16 2 2'/%3E%3Cpath d='M8.23 9.85A3 3 0 0 1 11 8a5 5 0 0 1 5 5 3 3 0 0 1-1.85 2.77l-.92.38A2 2 0 0 0 12 18a4 4 0 0 1-4 4 6 6 0 0 1-6-6 4 4 0 0 1 4-4 2 2 0 0 0 1.85-1.23z'/%3E%3C/svg%3E");
+}
+
+// Define themed variables
+html[saved-theme="light"] {
+  // Ryn – Violet
+  --ryn-color: #9470dc;
+  --ryn-border: #7a5bb5;
+  --ryn-bg: #f4f0fb;
+
+  // Ron – Red
+  --ron-color: #d24646;
+  --ron-border: #aa2e2e;
+  --ron-bg: #fdf0f0;
+
+  // Ronin – Pale Yellow
+  --ronin-color: #f0dc82;
+  --ronin-border: #d1bb5e;
+  --ronin-bg: #fefae6;
+
+  // Rime – Light Blue
+  --rime-color: #78b4f0;
+  --rime-border: #5c9bd1;
+  --rime-bg: #eef6fd;
+
+  // Rain – Jade Green
+  --rain-color: #64b48c;
+  --rain-border: #479c73;
+  --rain-bg: #e7f8f1;
+
+  // Ren – Soft Pink
+  --ren-color: #f0a0c8;
+  --ren-border: #d67fa9;
+  --ren-bg: #fdf0f7;
+}
+
+html[saved-theme="dark"] {
+  --ryn-color: #c5a7ff;
+  --ryn-border: #a07ed6;
+  --ryn-bg: #2e2245;
+
+  --ron-color: #ff7a7a;
+  --ron-border: #c24444;
+  --ron-bg: #3b1c1c;
+
+  --ronin-color: #f5e490;
+  --ronin-border: #bfae4f;
+  --ronin-bg: #3c361e;
+
+  --rime-color: #9dd4ff;
+  --rime-border: #4d88c4;
+  --rime-bg: #1c2b38;
+
+  --rain-color: #8feac1;
+  --rain-border: #3e8466;
+  --rain-bg: #1d3a31;
+
+  --ren-color: #ffb7dd;
+  --ren-border: #b55c8a;
+  --ren-bg: #3b1e2f;
+}
+
+
 // put your custom CSS here!
+/* === Soul Vessel Ego Callouts === */
+.callout {
+  &[data-callout="ryn"] {
+    --color: var(--ryn-color); // Violet
+    --border: var(--ryn-border);
+    --bg: var(--ryn-bg);
+    --callout-icon: var(--icon-shield);
+  }
+
+  &[data-callout="ron"] {
+    --color: var(--ron-color); // Fierce red
+    --border: var(--ron-border);
+    --bg: var(--ron-bg);
+    --callout-icon: var(--icon-helmet);
+  }
+
+  &[data-callout="ronin"] {
+    --color: var(--ronin-color); // Pale yellow
+    --border: var(--ronin-border);
+    --bg: var(--ronin-bg);
+    --callout-icon: var(--icon-sword);
+  }
+
+  &[data-callout="rime"] {
+    --color: var(--rime-color); // Light blue
+    --border: var(--rime-border);
+    --bg: var(--rime-bg);
+    --callout-icon: var(--icon-book);
+  }
+
+  &[data-callout="rain"] {
+    --color: var(--rain-color); // Noble jade
+    --border: var(--rain-border);
+    --bg: var(--rain-bg);
+    --callout-icon: var(--icon-scepter);
+  }
+
+  &[data-callout="ren"] {
+    --color: var(--ren-color); // Soft pink
+    --border: var(--ren-border);
+    --bg: var(--ren-bg);
+    --callout-icon: var(--icon-lute);
+  }
+}
