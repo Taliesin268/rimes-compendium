@@ -62,7 +62,39 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      filterFn: (node) => {
+        // set containing names of everything you want to filter out
+        const omit = new Set(["rime's compendium"])
+    
+        // can also use node.slug or by anything on node.data
+        // note that node.data is only present for files that exist on disk
+        // (e.g. implicit folder nodes that have no associated index.md)
+        return !omit.has(node.displayName.toLowerCase())
+      },
+      mapFn: (node) => {
+        // Map of section names to emojis as used in index.md
+        const emojiMap: Record<string, string> = {
+          "allies, npcs, & special creatures": "🎭",
+          "bestiary": "🧟",
+          "chronicles": "📖",
+          "events": "🗓️",
+          "locations & lore": "🗺️",
+          "session notes": "📓",
+          "special items": "💎",
+        }
+        // Normalize displayName for matching
+        const normalized = node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "").toLowerCase()
+        const emoji = emojiMap[normalized]
+        if (emoji) {
+          node.displayName = `${emoji} ${node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")}`
+        } else if (node.isFolder) {
+          node.displayName = "📁 " + node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")
+        } else {
+          node.displayName = "📄 " + node.displayName.replace(/^([^\w\s]|[\uD800-\uDBFF][\uDC00-\uDFFF])\s*/, "")
+        }
+      }
+    }),
   ],
   right: [],
 }
