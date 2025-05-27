@@ -1,4 +1,4 @@
-**Occured:** [[Session 52 (2025-04-13)]]
+**Occurred:** [[Session 52 (2025-04-13)]]
 
 ---
 ## 📜 Description

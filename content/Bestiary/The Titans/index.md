@@ -1,3 +1,10 @@
+---
+aliases:
+  - Titan
+  - The Titans
+title: The Titans
+---
+
 **First Referenced**: Backstory
 
 ---

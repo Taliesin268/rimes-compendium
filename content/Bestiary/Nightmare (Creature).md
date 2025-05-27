@@ -1,3 +1,8 @@
+---
+aliases:
+  - Nightmare
+---
+
 **First Observed**: [[Session 52 (2025-04-13)]]
 
 ---

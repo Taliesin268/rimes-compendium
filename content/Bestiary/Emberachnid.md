@@ -1,3 +1,8 @@
+---
+aliases:
+  - Emberachnids
+---
+
 **First Encountered**: [[Session 52 (2025-04-13)]]
 
 ---
@@ -7,9 +12,9 @@
 Emberachnids are spider-like drones discovered within the [[Silver Canopy]]. Though resembling large arachnids in form, they exhibit a hollow anatomy and collapse into dust upon death. Their brittle frames seem more construct than creature, though no mechanical elements have been observed.
 
 > [!rime] 
-> [[Zeke (Ezekial Corvis)]] referred to them as "autonomous drones," suggesting the adventuring party may know more about their nature than I do.
+> [[Ezekial Corvis|Zeke]] referred to them as "autonomous drones," suggesting the adventuring party may know more about their nature than I do.
 > 
-> The Emberachnids may be spawn of the [[Titan]] [[Wildfire]]. Their physical form and certain abilities resemble those of [[Wildfire]] - a towering being previously encountered by [[The Soul Vessel]]. If correct, this would imply that Wildfire escaped from [[The Continent I was on before]] and came to [[Miltaur]], spinning the [[Silver Canopy]] and populating it with defensive spawn.
+> The Emberachnids may be spawn of the [[Bestiary/The Titans/index|Titan]] [[Wildfire]]. Their physical form and certain abilities resemble those of [[Wildfire]] - a towering being previously encountered by [[The Soul Vessel]]. If correct, this would imply that Wildfire escaped from [[Lithilihad]] and came to [[Miltaur]], spinning the [[Silver Canopy]] and populating it with defensive spawn.
 > 
 > Their presence within the [[Silver Canopy]] suggests they are either native to, or created by, whatever force has taken hold there.
 

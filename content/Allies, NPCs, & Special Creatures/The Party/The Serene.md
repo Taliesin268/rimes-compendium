@@ -1,3 +1,8 @@
+---
+aliases:
+  - Our Serene Companion
+---
+
 **Pronouns**: they/them  
 **Race**: [[Serene (Race)]]  
 **Class**: Cleric
@@ -11,7 +16,7 @@ The Serene communicates with their own kind through melodic sounds — hums, whi
 
 When first observed, their scales were obsidian-black with a glossy shimmer. They move with serpentine grace and appear capable of walking, swimming, and limited flight. Walking seems to be their slowest form of movement.
 
-[[Zeke (Ezekiel Corvis)]] made mention of The Serene's devotion to justice, and how she uses an image of weighted scales to express displeasure with the party's actions.
+[[Ezekial Corvis|Zeke]] made mention of The Serene's devotion to justice, and how she uses an image of weighted scales to express displeasure with the party's actions.
 
 > [!rime] This makes me suppose that The Serene is the lawful force of the party, and [[Kara]] the moral.
 

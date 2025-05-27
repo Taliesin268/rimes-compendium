@@ -1,3 +1,9 @@
+---
+aliases:
+  - The Silver Canopy
+  - the canopy
+---
+
 **First Encountered**: [[Session 52 (2025-04-13)]]
 
 ---
@@ -7,4 +13,4 @@ The Silver Canopy is a sprawling region of web-draped wilderness on the continen
 
 According to the party it has spread relatively recently, disrupting local ecosystems. The party entered before [[Session 52 (2025-04-13)]] from [[Silver Canopy’s Watch]], a frontier outpost monitoring the encroachment of the webs.
 
-> [!rime] I believe this is the work of the [[Titan]] [[Wildfire]] - either a byproduct of its presence or a deliberate defensive structure. The presence of [[Emberachnid]], [[Husk]], and other corrupted or hollow creatures lends weight to the theory that this canopy is not simply a habitat, but a colonized zone.
+> [!rime] I believe this is the work of the [[Bestiary/The Titans/index|Titan]] [[Wildfire]] - either a byproduct of its presence or a deliberate defensive structure. The presence of [[Emberachnid]], [[Husk]], and other corrupted or hollow creatures lends weight to the theory that this canopy is not simply a habitat, but a colonized zone.

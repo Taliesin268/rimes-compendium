@@ -14,7 +14,7 @@ The Soul Vessel is not a singular entity, but rather a shared conduit for multip
 
 This phenomenon appears to be magical, spiritual, or perhaps both. It remains unclear whether the egos are past lives, splintered identities, or something else entirely.
 
-As of Session 52, the following egos have been encountered: [[Ryn]], [[The One With Red Eyes]], and [[Ronin]]. Others may exist, but have not yet been revealed to the party.
+As of Session 52, the following egos have been encountered: [[Ryn]], [[Ron]], and [[Ronin]]. Others may exist, but have not yet been revealed to the party.
 
 ---
 

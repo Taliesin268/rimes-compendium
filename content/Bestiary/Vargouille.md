@@ -26,4 +26,4 @@ Vargouilles are **fiendish parasites** — often found in areas tainted by infer
 ## 🧪 Observed Traits
 
 - Operated alongside [[Emberachnid|Emberachnids]] in the [[Silver Canopy]] — unusual, given their usual infernal origins.
-- Appeared opportunistic rather than strategic — may have been drawn to the carnage or corrupted by proximity to [[Titan]] [[Wildfire]]’s influence.
+- Appeared opportunistic rather than strategic — may have been drawn to the carnage or corrupted by proximity to [[Bestiary/The Titans/index|Titan]] [[Wildfire]]’s influence.

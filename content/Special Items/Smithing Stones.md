@@ -15,7 +15,7 @@ Smithing Stones are magical augmentations that can be embedded into weapons or a
 
 - **Damage Transmutation**: Kara’s Smithing Stone altered her weapon’s damage to fire.
 
-- **Swappable Augments**: Kara removed the stone mid-combat upon discovering the [[Emberachnids]] were resistant to fire, suggesting the stones can be added or removed quickly and without ritual.
+- **Swappable Augments**: Kara removed the stone mid-combat upon discovering the [[Emberachnid|Emberachnids]] were resistant to fire, suggesting the stones can be added or removed quickly and without ritual.
 
 ---
 

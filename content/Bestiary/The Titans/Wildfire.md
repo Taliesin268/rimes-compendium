@@ -13,4 +13,4 @@ It bears notable visual and behavioral similarities to the [[Emberachnid|Emberac
 >  
 >  I believe that Wildfire is at the centre of the [[Silver Canopy]].
 
-Wildfire is presumed to have escaped from [[The Continent I was on before]] and journeyed to [[Miltaur]], where its presence has corrupted the land. The extent of its influence remains unclear.
+Wildfire is presumed to have escaped from [[Lithilihad]] and journeyed to [[Miltaur]], where its presence has corrupted the land. The extent of its influence remains unclear.

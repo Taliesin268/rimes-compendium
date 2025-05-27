@@ -11,7 +11,7 @@ Use the sections below to explore.
 
 ## 📚 Sections
 
-### 🎭 [[Allies, NPCs, & Special Creatures]]
+### 🎭 [[Allies, NPCs, & Special Creatures/index|Allies, NPCs, & Special Creatures]]
 Profiles of companions, notable allies, and unique named beings.
 
 ### 🧟 [[Bestiary]]

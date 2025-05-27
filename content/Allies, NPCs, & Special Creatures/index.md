@@ -3,6 +3,7 @@ title: Allies, NPCs, & Special Creatures
 aliases:
   - Allies
   - Characters
+  - Allies, NPCs, & Special Creatures
 ---
 
 # 🎭 Allies, NPCs, and Special Creatures

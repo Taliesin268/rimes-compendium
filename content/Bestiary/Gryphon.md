@@ -1,3 +1,8 @@
+---
+aliases:
+  - gryphons
+---
+
 ![[gryphon.png]]
 **First Encountered**: [[Session 52 (2025-04-13)]]
 

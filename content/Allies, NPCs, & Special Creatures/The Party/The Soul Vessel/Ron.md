@@ -1,8 +1,6 @@
 **First Encountered**: [[Session 52 (2025-04-13)]]
 **Pronouns:** he/him
-## 📜 Description: The One With Red Eyes
-
-> [!ron] Seriously Rime? You're not going to write my name in this thing? You know who the fuck am.
+## 📜 Description
 
 **Forehead Gem Colour:** Red
 **Appearance**: Similar to the others in form, but more imposing. His red hair is hidden underneath his helmet and his face scarred. The most notable detail: his glowing red eyes, filled with anger.
