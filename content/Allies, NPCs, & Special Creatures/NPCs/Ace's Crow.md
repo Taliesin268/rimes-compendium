@@ -26,7 +26,7 @@ A crow of unremarkable size and coloration, but with an attentive, intelligent d
 
 ## 🧬 Abilities & Traits
 
-- **Darkvision Boon**: Grants impressive darkvision to the creature it perches on.
+- **Darkvision Boon**: Grants impressive darkvision to the creature it perches on. (Granted to [[Ezekial Corvis|Zeke]] in [[Session 53 (2025-04-20)]])
 - **Magical Familiar**: Appears to act as a magical companion or familiar.
 
 ---

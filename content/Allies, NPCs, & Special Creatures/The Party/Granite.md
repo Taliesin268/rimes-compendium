@@ -25,7 +25,7 @@ Wears a cloak distorted by the shapes of numerous weapons. His magical bow is al
 
 ## 🧬 Abilities & Traits
 
-- **Unerring Arrow**: Can fire arrows that always strike true, even piercing multiple targets.
+- **Unerring Arrow**: Can fire arrows that always strike true, even piercing multiple targets. 
 - **Silent Movement**: Nearly soundless approach.
 - **Precision Strikes**: Capable of immense damage when he connects.
 

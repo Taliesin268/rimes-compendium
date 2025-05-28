@@ -4,7 +4,7 @@
 
 ## 📜 Description
 
-Titan Wildfire is a colossal, powerful entity tied closely — if not directly — to the spread of the [[Silver Canopy]]. Though not yet encountered by the rest of the adventuring party, [[The Soul Vessel]] has prior history with this being. Wildfire trapped the Soul Vessel in a cocoon, and remains a key objective for [[The Soul Vessel]]'s ongoing mission.
+Titan Wildfire is a colossal, powerful entity tied closely — if not directly — to the spread of the [[Silver Canopy]]. Though not yet encountered by the rest of the adventuring party, [[Allies, NPCs, & Special Creatures/The Party/The Soul Vessel/index|The Soul Vessel]] has prior history with this being. Wildfire trapped the Soul Vessel in a cocoon, and remains a key objective for [[Allies, NPCs, & Special Creatures/The Party/The Soul Vessel/index|The Soul Vessel]]'s ongoing mission.
 
 It bears notable visual and behavioral similarities to the [[Emberachnid|Emberachnids]].
 

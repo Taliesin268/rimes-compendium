@@ -19,3 +19,10 @@ The name "Husk" is used here to describe its apparent emptiness - a humanoid she
 - **Not Undead**: Failed to respond to spells that affect undead, despite its zombie-like appearance.
 
 - **Hollow Presence**: Emotionless and devoid of will - an animated form functioning without agency.
+
+---
+
+## 🧬 Relationship to Hollow Malady
+
+- Husks are the result of the [[Hollow]] malady, a condition that leaves creatures emptied of their essence, vitality, or soul.
+- This state is most often observed after infestation by [[Emberling|Emberlings]], which hollow out living creatures from within.

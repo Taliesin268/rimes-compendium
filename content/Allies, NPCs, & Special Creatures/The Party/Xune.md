@@ -45,4 +45,4 @@ Appears to be a 7th-level druidic spellcaster. We've witnessed her cast or attem
 ---
 ## 🧷 Bonds & Relationships
 
-* Has a [[Xune's Pet Rodent|pet rodent]].
+* No Known bonds or relationships have been established yet.

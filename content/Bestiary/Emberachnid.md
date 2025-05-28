@@ -14,7 +14,7 @@ Emberachnids are spider-like drones discovered within the [[Silver Canopy]]. Tho
 > [!rime] 
 > [[Ezekial Corvis|Zeke]] referred to them as "autonomous drones," suggesting the adventuring party may know more about their nature than I do.
 > 
-> The Emberachnids may be spawn of the [[Bestiary/The Titans/index|Titan]] [[Wildfire]]. Their physical form and certain abilities resemble those of [[Wildfire]] - a towering being previously encountered by [[The Soul Vessel]]. If correct, this would imply that Wildfire escaped from [[Lithilihad]] and came to [[Miltaur]], spinning the [[Silver Canopy]] and populating it with defensive spawn.
+> The Emberachnids may be spawn of the [[Bestiary/The Titans/index|Titan]] [[Wildfire]]. Their physical form and certain abilities resemble those of [[Wildfire]] - a towering being previously encountered by [[Allies, NPCs, & Special Creatures/The Party/The Soul Vessel/index|The Soul Vessel]]. If correct, this would imply that Wildfire escaped from [[Lithilihad]] and came to [[Miltaur]], spinning the [[Silver Canopy]] and populating it with defensive spawn.
 > 
 > Their presence within the [[Silver Canopy]] suggests they are either native to, or created by, whatever force has taken hold there.
 
@@ -30,6 +30,10 @@ Emberachnids are spider-like drones discovered within the [[Silver Canopy]]. Tho
 
 - **Dust Collapse**: Upon defeat, their bodies crumble into a fine dust.
 
+- **Resistance to Slashing and Piercing**: Resistant even to magical slashing and piercing attacks. (Observed in [[Session 53 (2025-04-20)]])
+- **Susceptibility to Cold**: More vulnerable to cold damage. (Observed in [[Session 53 (2025-04-20)]])
+- **Unburdened by Soul**: Appear untroubled by their soullessness, possibly even empowered by it. (Observed in [[Session 53 (2025-04-20)]])
+- **Hive-Mind Behavior**: Some Emberachnids react instantly to the death of others nearby, suggesting a shared or connected consciousness. (Observed in [[Session 53 (2025-04-20)]])
 
 ---
 
