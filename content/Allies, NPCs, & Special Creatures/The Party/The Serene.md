@@ -2,28 +2,47 @@
 aliases:
   - Our Serene Companion
 ---
-
 **Pronouns**: they/them  
+**Class**: Cleric  
 **Race**: [[Serene (Race)]]  
-**Class**: Cleric
-**First Encountered**: [[Session 52 (2025-04-13)]]
+**First Mentioned**: [[Session 52 (2025-04-13)]]
 
 ---
 
 ## 📜 Description
 
-The Serene communicates with their own kind through melodic sounds — hums, whistles, and songlike vocalizations. With non-Serene individuals, they appear to rely on psychic projection, conveying images and impressions directly into the mind. One such projection, intended for [[Ryn]], failed to connect as expected, and instead produced a scattered mental impression.
-
-When first observed, their scales were obsidian-black with a glossy shimmer. They move with serpentine grace and appear capable of walking, swimming, and limited flight. Walking seems to be their slowest form of movement.
-
-[[Ezekial Corvis|Zeke]] made mention of The Serene's devotion to justice, and how she uses an image of weighted scales to express displeasure with the party's actions.
-
-> [!rime] This makes me suppose that The Serene is the lawful force of the party, and [[Kara]] the moral.
+The Serene is an enigmatic, serpentine cleric who communicates with their own kind through melodic sounds and with others via psychic projection. They are devoted to justice and act as a lawful force within the party.
 
 ---
 
-## 🧠 Known Traits
+## 👁️ Appearance
 
-- **Tolling the Dead**: They invoked a tolling bell during battle, associated with divine or necrotic magic.
+Obsidian-black, glossy scales; moves with serpentine grace. Conversations from the party lead me to believe these scales can change colour in certain circumstances.
 
-- **Radiant Thunderburst**: Used a potent area effect that required nearby enemies to make Constitution saving throws or take thunder and radiant damage. They seemed to be able to choose whom this affected.
+---
+
+## 🔮 Spellcasting
+
+- **[Toll the Dead](https://dnd5e.wikidot.com/spell:toll-the-dead)**: Invokes a tolling bell during battle.
+- **Radiant Thunderburst**: Potent area effect, thunder and radiant damage.
+- **[Bless](https://dnd5e.wikidot.com/spell:bless)**: Can cast Bless.
+
+---
+
+## 🧬 Abilities & Traits
+
+- **Psionic Projection**: Sends mental images or impressions directly into minds.
+- **Melodic Speech**: Communicates with [[Serene (Race)]] using layered tones and vocalizations.
+- **Remarkable Empathy**: Seems to be able to gain incredible insight into the character of creatures they encounter through some kind of telepathic link.
+
+---
+
+## 🧰 Equipment
+
+- **Unknown**: No specific items detailed yet.
+
+---
+
+## 🧷 Bonds & Relationships
+
+- **Unknown**: No specific relationships detailed yet.
