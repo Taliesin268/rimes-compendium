@@ -7,7 +7,7 @@
 
 ## 📜 Description
 
-Serenity Emelda is always surrounded by a three-part song, similar to The Serene, and is a notable figure at [[Glitterstone College]]. She is interested in meeting [[The Soul Vessel]].
+Serenity Emelda is always surrounded by a three-part song, similar to The Serene, and is a notable figure at [[Glitterstone College]]. She is interested in meeting [[Allies, NPCs, & Special Creatures/The Party/The Soul Vessel/index|The Soul Vessel]].
 
 ---
 
@@ -39,4 +39,4 @@ Not yet met.
 ## 🧷 Bonds & Relationships
 
 - **[[Glitterstone College]]** – Notable figure
-- **[[The Soul Vessel]]** – Interested in meeting
+- **[[Allies, NPCs, & Special Creatures/The Party/The Soul Vessel/index|The Soul Vessel]]** – Interested in meeting

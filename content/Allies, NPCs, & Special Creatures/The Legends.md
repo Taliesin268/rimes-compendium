@@ -11,4 +11,4 @@ A legendary group of adventurers who fought against the Titans, managing to defe
 - Assassin (Morning/Evening)
 
 ## Description
-The Legends are renowned for their battles against [[The Titans]], including the defeat of some. Their exploits are the stuff of myth.
+The Legends are renowned for their battles against [[Bestiary/The Titans/index|The Titans]], including the defeat of some. Their exploits are the stuff of myth.

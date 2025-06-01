@@ -17,7 +17,7 @@ Profiles of companions, notable allies, and unique named beings.
 ### 🧟 [[Bestiary]]
 Monsters, constructs, and other creatures.
 
-### 📖 [[Chronicles]]
+### 📖 [[Chronicles/index|Chronicles]]
 In-world narrative entries describing the journey from within the Vessel.
 
 ### 🗓️ [[Events]]
