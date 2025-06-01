@@ -63,3 +63,4 @@ The following spells are accessible to all egos:
 ## 🧷 Bonds & Relationships
 
 - **The Egos** – [[Ryn]], [[Ron]], [[Ronin]], [[Rime]], [[Rain]], [[Ren]]
+- [[Serenity Emelda]] – Interested in meeting The Soul Vessel

@@ -11,6 +11,7 @@ aliases:
 
 Emberachnids are spider-like drones discovered within the [[Silver Canopy]]. Though resembling large arachnids in form, they exhibit a hollow anatomy and collapse into dust upon death. Their brittle frames seem more construct than creature, though no mechanical elements have been observed.
 
+They are made from the flesh of [[Wildfire]], and act as her children. They make a chittering noise when receiving commands from Wildfire, and most move toward or away from a specific spot (the hive).
 > [!rime] 
 > [[Ezekial Corvis|Zeke]] referred to them as "autonomous drones," suggesting the adventuring party may know more about their nature than I do.
 > 
@@ -22,7 +23,7 @@ Emberachnids are spider-like drones discovered within the [[Silver Canopy]]. Tho
 
 ## 🧪 Observed Traits
 
-- **Immunity or Resistance to Fire**: Attacks imbued with fire (e.g., [[Kara]]’s [[Smithing Stones|Fire Smithing Stone]]) proved ineffective.
+- **Immunity or Resistance to Fire**: Attacks imbued with fire (e.g., [[Kara]]’s [[Special Items/Smithing Stones/index|Fire Smithing Stone]]) proved ineffective.
 
 - **Fear Response**: Despite their drone-like behavior, Emberachnids can be intimidated or frightened.
 

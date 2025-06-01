@@ -1,12 +1,16 @@
-**First Encountered**: Backstory
+---
+aliases:
+  - The Broodmother
+  - Vilgaroth
+---
+
+**First Encountered:** Backstory
 
 ---
 
-## 📜 Description
+Titan Wildfire is a colossal, powerful entity tied closely - if not directly - to the spread of the [[Silver Canopy]]. Wildfire is also known as "The Broodmother" and "Vilgaroth" (name from [[Miltaur]]). Emberachnids are made from her flesh and act as her children. Possibly only her body remains; her soul is missing. She is allied with the [[Kings of Extinction]]. Her soul has not been found in [[Lithilihad]] or the Astral Plane.
 
-Titan Wildfire is a colossal, powerful entity tied closely — if not directly — to the spread of the [[Silver Canopy]]. Though not yet encountered by the rest of the adventuring party, [[Allies, NPCs, & Special Creatures/The Party/The Soul Vessel/index|The Soul Vessel]] has prior history with this being. Wildfire trapped the Soul Vessel in a cocoon, and remains a key objective for [[Allies, NPCs, & Special Creatures/The Party/The Soul Vessel/index|The Soul Vessel]]'s ongoing mission.
-
-It bears notable visual and behavioral similarities to the [[Emberachnid|Emberachnids]].
+It bears notable visual and behavioural similarities to the [[Emberachnid|Emberachnids]].
 
 > [!rime] 
 > I suspect the [[Emberachnid|Emberachnids]] to be its spawn or creations. If true, this suggests Wildfire may be the architect behind the Canopy and its many horrors.
