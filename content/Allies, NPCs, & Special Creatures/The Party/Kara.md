@@ -34,7 +34,7 @@ She has flowing tattoos of animals running across her arms, and a weapon that ma
 
 ## 🧰 Equipment
 
-- **[[Smithing Stones|Fire Smithing Stone]]**: Worn as a necklace, channels fire into attacks.
+- **[[Special Items/Smithing Stones/Fire Smithing Stone|Fire Smithing Stone]]**: Worn as a necklace, channels fire into attacks.
 - **Animated Tattoos**: Tattoos of animals that seem to move across her arms.
 
 ---
