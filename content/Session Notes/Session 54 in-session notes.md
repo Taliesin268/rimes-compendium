@@ -79,7 +79,7 @@ The Serene banished Vuela and Ryn destroyed her when it returned
 
 They dropped a large cold smithing stone, and a fused together white gold and platinum. also viscous swirling red, and a pure white smithing stone
 
-Rime identified the swirling red one as a Blood Vial Smithing Stone - it absorbs blood mist in the air, and returns it to the attacked, like a vampire stone
+Rime identified the swirling red one as a Blood Vial Smithing Stone - it absorbs blood mist in the air, and returns it to the attacker, like a vampire stone
 
 Can't remove the smithing stone from the neckless - Kara actually removed her neckless to remove the fire stone.
 
@@ -97,7 +97,7 @@ Ryn hurt himself when he landed, because he didn't know to brace his legs
 
 Serenity Emelda would want to meet Rime & Ren - who are apparently interesting to me.
 
-Serenity is always surrounded by a three-part song like The Serene, and makes magic blocking rings
+Serenity is always surrounded by a three-part song like The Serene despite being humanoid, and makes magic blocking rings
 
 Some lady in this space touched each of us, and all the Emberlings crawl onto her, and she makes them disappear.
 
@@ -109,17 +109,17 @@ Chad has some kind of ailment and needs a cane.
 
 He's making preparatiosn for the school to be threatened, and Nebula to be threatened in his weakened state.
 
-The Glitterstone College is the name of it
+The Glitterstone College is the name of it - and Chad is the owner.
 
 "Olfolk" may refer to "Miss Olfolk" - a teacher at Glitterstone
 
 Chad has a theory, that some guy's almanic is being delayed, and apparently he was researching the separation of body and soul for the titans.
 
-He suspects someone is experimenting with that theory. "Thereos Falkum(?)" is the one with the theory.
+He suspects someone is experimenting with that theory. "Ferros Ocham(?)" is the one with the theory.
 
 "Ferros Ocham(?)" The body and the soul both have the full strength of the whole.
 
-Theritos Almanac is the book that holds the work on that theory
+Ferros's Almanac is the book that holds the work on that theory
 
 The party theorises that if Helios dies, he will become Quake - maybe because he has Quake's soul inside him or something
 
