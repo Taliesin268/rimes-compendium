@@ -1,5 +1,5 @@
 **Type**: [[Nightmare (Creature)]]  
-**First Mentioned**: [[Session 52 (2025-04-13)]]
+**First Mentioned**: [[Session 52 (2025-05-13)]]
 **Companion To**: [[Ace]]
 
 ---

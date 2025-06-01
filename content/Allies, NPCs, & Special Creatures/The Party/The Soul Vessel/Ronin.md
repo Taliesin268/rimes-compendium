@@ -1,7 +1,7 @@
 **Pronouns**: he/they
 **Class**: Fighter (Swordmaster)
 **Race**: Reath (Soul Vessel Ego)  
-**First Mentioned**: [[Session 52 (2025-04-13)]]
+**First Mentioned**: [[Session 52 (2025-05-13)]]
 **Title**: The Myrmidon
 
 ---

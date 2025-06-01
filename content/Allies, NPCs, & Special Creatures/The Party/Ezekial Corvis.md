@@ -6,7 +6,7 @@ aliases: Zeke
 **Pronouns**: he/him (self-refers as he/him, no preference)  
 **Class**: Wizard  
 **Race**: Human (presumed)  
-**First Mentioned**: [[Session 52 (2025-04-13)]]
+**First Mentioned**: [[Session 52 (2025-05-13)]]
 
 ---
 

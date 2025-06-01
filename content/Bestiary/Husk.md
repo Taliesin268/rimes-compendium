@@ -1,4 +1,4 @@
-**First Encountered**: [[Session 52 (2025-04-13)]]
+**First Encountered**: [[Session 52 (2025-05-13)]]
 
 ---
 

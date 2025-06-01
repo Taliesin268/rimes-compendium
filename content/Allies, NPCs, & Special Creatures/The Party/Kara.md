@@ -2,7 +2,7 @@
 **Pronouns**: she/her  
 **Class**: Paladin  
 **Race**: Unknown, seems like a very large humanoid
-**First Mentioned**: [[Session 52 (2025-04-13)]]
+**First Mentioned**: [[Session 52 (2025-05-13)]]
 
 ---
 

@@ -3,7 +3,7 @@ aliases:
   - Nightmare
 ---
 
-**First Observed**: [[Session 52 (2025-04-13)]]
+**First Observed**: [[Session 52 (2025-05-13)]]
 
 ---
 

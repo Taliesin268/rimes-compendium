@@ -5,7 +5,7 @@ aliases:
 
 ## 📜 Description
 
-"Hollow" refers to a malady or condition observed in certain creatures, most notably the elder gryphon in [[Session 53 (2025-04-20)]] and the entity known as the [[Husk]]. Creatures afflicted by this malady are left emptied—hollowed out—of their essence, vitality, or soul, resulting in a shell that is neither truly alive nor undead.
+"Hollow" refers to a malady or condition observed in certain creatures, most notably the elder gryphon in [[Session 53 (2025-05-20)]] and the entity known as the [[Husk]]. Creatures afflicted by this malady are left emptied—hollowed out—of their essence, vitality, or soul, resulting in a shell that is neither truly alive nor undead.
 
 ## 🧠 Observed Symptoms & Effects
 - Victims appear gaunt, pallid, and emotionless, with a lack of will or agency.

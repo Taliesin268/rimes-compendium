@@ -3,7 +3,7 @@ aliases:
   - Emberachnids
 ---
 
-**First Encountered**: [[Session 52 (2025-04-13)]]
+**First Encountered**: [[Session 52 (2025-05-13)]]
 
 ---
 
@@ -30,10 +30,10 @@ Emberachnids are spider-like drones discovered within the [[Silver Canopy]]. Tho
 
 - **Dust Collapse**: Upon defeat, their bodies crumble into a fine dust.
 
-- **Resistance to Slashing and Piercing**: Resistant even to magical slashing and piercing attacks. (Observed in [[Session 53 (2025-04-20)]])
-- **Susceptibility to Cold**: More vulnerable to cold damage. (Observed in [[Session 53 (2025-04-20)]])
-- **Unburdened by Soul**: Appear untroubled by their soullessness, possibly even empowered by it. (Observed in [[Session 53 (2025-04-20)]])
-- **Hive-Mind Behavior**: Some Emberachnids react instantly to the death of others nearby, suggesting a shared or connected consciousness. (Observed in [[Session 53 (2025-04-20)]])
+- **Resistance to Slashing and Piercing**: Resistant even to magical slashing and piercing attacks. (Observed in [[Session 53 (2025-05-20)]])
+- **Susceptibility to Cold**: More vulnerable to cold damage. (Observed in [[Session 53 (2025-05-20)]])
+- **Unburdened by Soul**: Appear untroubled by their soullessness, possibly even empowered by it. (Observed in [[Session 53 (2025-05-20)]])
+- **Hive-Mind Behavior**: Some Emberachnids react instantly to the death of others nearby, suggesting a shared or connected consciousness. (Observed in [[Session 53 (2025-05-20)]])
 
 ---
 

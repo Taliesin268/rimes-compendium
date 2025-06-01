@@ -2,7 +2,7 @@
 **Pronouns**: [She/Her]  
 **Class**: Druid  
 **Race**: [Unknown, likely elf or similar]
-**First Mentioned**: [[Session 53 (2025-04-20)]]
+**First Mentioned**: [[Session 53 (2025-05-20)]]
 
 ---
 
