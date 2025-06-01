@@ -1,15 +1,15 @@
 ---
-draft: "true"
+applyTo: '**.md'
 ---
 # 📝 Rime’s Compendium – AI Agent Instructions
 
-## 1. Purpose & Structure
+## 0. Purpose & Structure
 
 - This repository is a living wiki for a D&D campaign, used to record session notes, write formal recaps, and maintain interconnected lore, character, and item entries.
 - The workspace is organized into folders for Session Notes, Chronicles (in-world narrative), Allies/NPCs, Bestiary, Locations & Lore, Events, and Special Items.
 - Session Notes are the factual backbone; all other documents (recaps, character bios, lore, etc.) are derived from or updated based on these notes.
 
-## 2. Writing Style & Tone
+## 1. Writing Style & Tone
 
 - **Session Notes:**  
   - Write in a clear, factual, and chronological manner.
@@ -29,20 +29,20 @@ draft: "true"
   - Use callouts (e.g., `> [!rime] ...`) for character commentary or speculation.
   - Link to relevant sessions, items, or other entities using double brackets.
 
-## 3. Updating & Linking
+## 2. Updating & Linking
 
 - When new information appears in session notes:
   - Update the relevant entity pages (NPCs, items, locations, etc.) with new facts, abilities, or relationships.
-  - Add session references (e.g., “First Encountered: [[Session 52 (2025-04-13)]]”).
+  - Add session references (e.g., “First Encountered: [[Session 51 (2025-05-13)]]”).
   - If a new entity is mentioned, create a stub page using the appropriate template.
   - Maintain and update cross-links between pages for easy navigation.
 
 - When told new facts directly:
   - Integrate them into the appropriate section(s) of the relevant page(s).
-  - If the information changes or clarifies previous entries, update or annotate accordingly (e.g., “As of Session 54, it was revealed that...”).
+  - If the information changes or clarifies previous entries, update or annotate accordingly (e.g., “As of Session 53, it was revealed that...”).
   - Use callouts for speculation, uncertainty, or in-character commentary.
 
-## 4. Formatting & Conventions
+## 3. Formatting & Conventions
 
 - Use Markdown headings and sections as in existing files.
 - Use Obsidian-style links (`[[Page Name]]` or `[[Page Name|Display Text]]`).
@@ -50,7 +50,7 @@ draft: "true"
 - For new or incomplete pages, mark as draft or stub as appropriate.
 - Maintain consistency in pronouns, class, race, and other descriptors as established in templates and previous entries.
 
-## 5. General Best Practices
+## 4. General Best Practices
 
 - Be concise but thorough; avoid redundancy.
 - When in doubt, preserve the original author’s voice and intent.
