@@ -7,8 +7,10 @@ import {
   handleUpdate,
   handleRestore,
   handleSync,
+  handleTranscribe,
 } from "./cli/handlers.js"
 import { CommonArgv, BuildArgv, CreateArgv, SyncArgv } from "./cli/args.js"
+import { TranscribeArgv } from "./cli/transcribe-args.js"
 import { version } from "./cli/constants.js"
 
 yargs(hideBin(process.argv))
@@ -34,6 +36,9 @@ yargs(hideBin(process.argv))
   })
   .command("build", "Build Quartz into a bundle of static HTML files", BuildArgv, async (argv) => {
     await handleBuild(argv)
+  })
+  .command("transcribe", "Transcribe D&D session MKV recordings using OpenAI Whisper", TranscribeArgv, async (argv) => {
+    await handleTranscribe(argv)
   })
   .showHelpOnFail(false)
   .help()

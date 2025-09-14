@@ -601,3 +601,203 @@ export async function handleSync(argv) {
 
   console.log(chalk.green("Done!"))
 }
+
+/**
+ * Handles `npx quartz transcribe`
+ * @param {*} argv arguments for `transcribe`
+ */
+export async function handleTranscribe(argv) {
+  console.log(chalk.bgGreen.black(`\n Quartz v${version} - Transcription \n`))
+
+  try {
+    // Dynamic import for ES modules
+    const { AudioProcessor } = await import("../transcribe/audio-processor.js")
+    const { WhisperClient } = await import("../transcribe/whisper-client.js")
+    const { LocalWhisperClient } = await import("../transcribe/local-whisper-client.js")
+    const { CharacterParser } = await import("../transcribe/character-parser.js")
+    const { SessionFormatter } = await import("../transcribe/session-formatter.js")
+
+    const processor = new AudioProcessor()
+    const parser = new CharacterParser()
+    const formatter = new SessionFormatter()
+
+    // Initialize appropriate Whisper client based on backend choice
+    let whisperClient
+    if (argv.backend === "api") {
+      if (!argv.apiKey && !process.env.OPENAI_API_KEY) {
+        console.error(chalk.red("OpenAI API key is required for API backend."))
+        console.error(chalk.grey("Set OPENAI_API_KEY environment variable or use --api-key flag."))
+        console.error(chalk.grey("Alternatively, use --backend local for offline transcription."))
+        process.exit(1)
+      }
+      whisperClient = new WhisperClient(argv.apiKey)
+      console.log(chalk.blue("Using OpenAI Whisper API"))
+    } else {
+      whisperClient = new LocalWhisperClient()
+      console.log(chalk.blue(`Using local Whisper (${argv.whisperModel} model)`))
+
+      // Check local installation
+      const installation = await whisperClient.checkInstallation()
+      if (!installation.whisperInstalled) {
+        console.log(chalk.yellow("Local Whisper not found."))
+        if (argv.installWhisper) {
+          console.log(chalk.blue("Attempting to install Whisper..."))
+          const installed = await whisperClient.installWhisper()
+          if (!installed) {
+            console.error(chalk.red("Failed to install Whisper automatically."))
+            console.error(chalk.grey("Please install manually: pip install openai-whisper"))
+            process.exit(1)
+          }
+        } else {
+          console.error(chalk.red("Whisper is not installed."))
+          console.error(chalk.grey("Install with: pip install openai-whisper"))
+          console.error(chalk.grey("Or use --install-whisper flag for automatic installation"))
+          process.exit(1)
+        }
+      }
+
+      if (!installation.pythonAvailable) {
+        console.error(chalk.red("Python is not available. Please install Python 3.8+"))
+        process.exit(1)
+      }
+
+      if (!installation.ffmpegAvailable) {
+        console.error(chalk.red("FFmpeg is not available. Please install FFmpeg"))
+        process.exit(1)
+      }
+    }
+
+    // Validate input file
+    console.log(chalk.blue("Validating MKV file..."))
+    const isValidMkv = await processor.validateMkvFile(argv.file)
+    if (!isValidMkv) {
+      console.error(chalk.red("Invalid MKV file"))
+      process.exit(1)
+    }
+
+    // Extract and process audio
+    console.log(chalk.blue("Processing audio..."))
+    const processedAudio = await processor.extractAudioFromMkv(argv.file, {
+      enhanceDiscord: argv.enhanceDiscord,
+      outputFormat: "wav",
+    })
+
+    console.log(
+      chalk.green(
+        `Audio extracted: ${processor.formatDuration(processedAudio.duration)} duration`
+      )
+    )
+
+    // Split into chunks if necessary
+    const audioChunks = await processor.splitAudioIntoChunks(
+      processedAudio.path,
+      argv.chunkSize
+    )
+
+    let transcriptionResult
+    if (audioChunks.length === 1) {
+      console.log(chalk.blue("Transcribing audio..."))
+      if (argv.backend === "api") {
+        transcriptionResult = await whisperClient.transcribeFile(audioChunks[0], {
+          responseFormat: "verbose_json",
+          temperature: 0,
+        })
+      } else {
+        transcriptionResult = await whisperClient.transcribeFile(audioChunks[0], {
+          model: argv.whisperModel,
+          outputFormat: "json",
+          temperature: 0,
+          wordTimestamps: true,
+        })
+      }
+    } else {
+      console.log(chalk.blue(`Transcribing ${audioChunks.length} audio chunks...`))
+      if (argv.backend === "api") {
+        const chunkResults = await whisperClient.transcribeChunks(audioChunks, {
+          responseFormat: "verbose_json",
+          temperature: 0,
+        })
+        transcriptionResult = whisperClient.combineChunkResults(chunkResults)
+      } else {
+        const chunkResults = await whisperClient.transcribeChunks(audioChunks, {
+          model: argv.whisperModel,
+          outputFormat: "json",
+          temperature: 0,
+          wordTimestamps: true,
+        })
+        transcriptionResult = whisperClient.combineChunkResults(chunkResults)
+      }
+    }
+
+    // Parse segments if available
+    let parsedSegments = []
+    if (transcriptionResult.segments) {
+      parsedSegments = transcriptionResult.segments.map(segment =>
+        parser.parseSegment(segment)
+      )
+
+      if (argv.groupSpeakers) {
+        parsedSegments = parser.groupSegmentsBySpeaker(parsedSegments)
+      }
+    }
+
+    // Generate metadata
+    const metadata = {
+      sessionNumber: argv.session,
+      date: argv.date || new Date().toISOString().split("T")[0],
+      duration: processor.formatDuration(processedAudio.duration),
+      processingDate: new Date().toISOString(),
+      audioQuality: parsedSegments.length > 0 ? formatter.assessAudioQuality(parsedSegments) : undefined,
+      notes: formatter.generateProcessingNotes(argv.file, transcriptionResult, parsedSegments),
+    }
+
+    // Format transcription
+    const formattedTranscription = formatter.formatTranscription(transcriptionResult, metadata, {
+      includeTimestamps: argv.includeTimestamps,
+      groupBySpeaker: argv.groupSpeakers,
+      markLowConfidence: argv.markLowConfidence,
+      confidenceThreshold: argv.confidenceThreshold,
+      includeProcessingNotes: true,
+    })
+
+    // Determine output filename and path
+    const outputFilename = argv.output || formatter.generateFilename(argv.session, argv.date)
+    const contentDir = path.join(cwd, "content", "Session Notes")
+    const outputPath = path.join(contentDir, outputFilename)
+
+    // Ensure content directory exists
+    await promises.mkdir(contentDir, { recursive: true })
+
+    // Write the transcription file
+    await promises.writeFile(outputPath, formattedTranscription, "utf8")
+
+    console.log(chalk.green(`\nTranscription completed!`))
+    console.log(chalk.grey(`Output: ${outputPath}`))
+    console.log(chalk.grey(`Duration: ${metadata.duration}`))
+    console.log(chalk.grey(`Quality: ${metadata.audioQuality || "unknown"}`))
+
+    if (parsedSegments.length > 0) {
+      const unknownSegments = parsedSegments.filter(s => s.speaker === "Unknown").length
+      if (unknownSegments > 0) {
+        console.log(chalk.yellow(`Note: ${unknownSegments} segments with unidentified speakers`))
+      }
+    }
+
+    // Cleanup temporary files
+    if (!argv.keepTemp) {
+      console.log(chalk.grey("Cleaning up temporary files..."))
+      await processor.cleanup([processedAudio.path, ...audioChunks])
+    } else {
+      console.log(chalk.grey(`Temporary files kept in: ${processor.tempDir}`))
+    }
+
+    console.log(chalk.green("\nDone! You can now review and edit the transcription."))
+
+  } catch (error) {
+    console.error(chalk.red("\nTranscription failed:"), error.message)
+    if (argv.verbose) {
+      console.error(error)
+    }
+    process.exit(1)
+  }
+}
